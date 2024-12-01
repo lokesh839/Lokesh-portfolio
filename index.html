@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lokesh portfolio</title>
+    <link rel="icon" href="images/loki4.jpg">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/d3e1409e68.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/icon.png" alt="" style="width: 100px;">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#Services">Services</a></li>
+                    <li><a href="#portfolio">Project</a></li>
+                    <li><a href="#content">Contact</a></li>
+                    <i class="fas fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+
+            </nav>
+            <div class="header-text">
+                <p>Welcome to My World</p>
+                <h1>Hi I'm <span>Lokesh</span> <br>I'am a Frontend Developer</h1>
+            </div>
+        </div>
+    </div>
+    <!-- about -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="images/loki2.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p> A motivated and detail-oriented Frontend Developer with a strong foundation in HTML, CSS, and
+                        JavaScript. Passionate about building user-friendly, responsive, and visually appealing websites
+                        and applications. Proficient in modern frameworks like React.js and skilled in collaborating
+                        with teams to deliver high-quality web solutions. Quick learner with a strong commitment to
+                        enhancing skills and contributing to impactful projects.
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>UI</span><br> develope web/app</li>
+                            <li><span>Web</span><br>web app Developer</li>
+                            <li><span>App</span><br>Building Android / Ios apps</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2024-current -(Napses)</span><br>UI Developer- Internship</li>
+                            <li><span>2022-2024 -(TCL)</span><br>Customer Support</li>
+
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2024- 90%</span><br> Forntend Developer </li>
+                            <li><span>2019-2022- 85%</span><br>Bachelor Of Cumputer Application (BCA)</li>
+                            <li><span>2019- 65%</span><br>Hindu Higher Secondary School </li>
+
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Services -->
+
+    <div id="Services">
+        <div class="container">
+            <h1 class="sub-title">my Services</h1>
+
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>web design</h2>
+                    <p>Web design is the process of creating visually appealing and user-friendly websites by combining
+                        layout, color schemes, graphics, and functionality. It focuses on enhancing user experience and
+                        ensuring responsiveness across devices.
+                    </p>
+                    <a href="#">Leran more</a>
+                </div>
+
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>UI develope</h2>
+                    <p>A UI developer specializes in creating interactive and visually engaging user interfaces for
+                        websites or applications. They focus on translating design concepts into functional, responsive,
+                        and user-friendly experiences using technologies like HTML, CSS, and JavaScript. </p>
+                    <a href="#">Leran more</a>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>App develope</h2>
+                    <p>
+                        An app developer designs and builds mobile or web applications tailored to meet user needs. They
+                        specialize in coding, debugging, and optimizing apps for functionality and performance on
+                        platforms like iOS, Android, or cross-platform frameworks. </p>
+                    <a href="#">Leran more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- portfolio -->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">my Work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="https://wallpapers.com/images/hd/instagram-background-rkaj0xs4382vbx69.jpg" alt="">
+
+                    <div class="layer">
+                        <h3>social-media</h3>
+                        <p>using to html and css and javascript build the application.
+                        </p>
+                        <a href="https://github.com/lokesh839/social-media/tree/main/work1"><i
+                                class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://borntechies.com/wp-content/uploads/2021/10/future-of-online-shopping-1015x566.png"
+                        alt="">
+
+                    <div class="layer">
+                        <h3>Ecart Website</h3>
+                        <p>
+                        </p>
+                        <a href="https://github.com/lokesh839/e-com"><i
+                                class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="https://t3.ftcdn.net/jpg/07/64/35/60/360_F_764356037_r3JjDGtxqV6LvropuUkrf6IVseSillSc.jpg"
+                        alt="">
+                    <div class="layer">
+                        <h3>GYM Application</h3>
+                        <p>
+                        </p>
+                        <a href="https://github.com/lokesh839/gym"><i class="fa-sharp fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+
+                </div>
+            </div>
+            <!-- <a href="#" class="btn">See more</a> -->
+        </div>
+    </div><br><br>
+    <!-- content -->
+    <div id="content">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact me</h1>
+                    <p><i class="fa-solid fa-envelope"></i>lokeshsaminathan364@gamil.com</p>
+                    <p><i class="fa-solid fa-phone"></i> 9025916191</p>
+                    <div class="social-icons">
+                        <a href="https://github.com/lokesh839"><i class="fa-brands fa-github"></i></i></a>
+                        <a href="https://wa.me/9025916191"><i class="fa-brands fa-square-whatsapp"></i></a>
+                        <a href="https://www.linkedin.com/in/lokesh-software-developer/"><i
+                                class="fa-brands fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/mycv.pdf" Download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-rigth">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="name" placeholder="your name" required>
+                        <input type="email" name="email" placeholder="your email" required>
+                        <textarea name="message" rows="6" placeholder="your message"></textarea>
+                        <button type="submit" class="btn btn2">submit</button>
+
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+        <div class="copyrigth">
+            © 2024. All rights reserved by lokesh <i class="fa-solid fa-heart"></i>
+
+        </div>
+
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links")
+        var tabcontents = document.getElementsByClassName("tab-contents")
+
+        function opentab(tabname) {
+            for (tablink of tablinks) {
+                tablink.classList.remove("active-link");
+            }
+            for (tabcontent of tabcontents) {
+                tabcontent.classList.remove("active-tab");
+            }
+            event.currentTarget.classList.add("active-link");
+            document.getElementById(tabname).classList.add("active-tab");
+
+        }
+
+    </script>
+
+    <script>
+
+        var sidemeu = document.getElementById("sidemenu");
+
+        function openmenu() {
+            sidemeu.style.right = "0";
+        }
+        function closemenu() {
+            sidemeu.style.right = "-200px";
+        }
+
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycby8N_hHLXNCEXymLAe-MjRdn6uCCLFzrQEEj4X52vVs2qpfvqlGX2dHG84uZGvi76EETw/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "message send successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
